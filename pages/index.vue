@@ -1,7 +1,10 @@
 <template>
   <div class="container">
     <div>
-      <img src="~/assets/images/DesignAndDevelopment.svg" style="width: 80vw;" alt="The Future of Design &amp; Development">
+      <img src="~/assets/images/logo.svg" class="mb-10 mt-2" alt="Hansen Logo">
+      <img src="~/assets/images/DesignAndDevelopment.svg" class="mb-4" style="width: 80vw;" alt="The Future of Design &amp; Development">
+      <h1 class="mb-6 text-white font-bold">Digital Solutions</h1>
+      <a href="#!"><i class="fa fa-twitter"></i></a>
     </div>
   </div>
 </template>
@@ -16,39 +19,4 @@ export default {
 </script>
 
 <style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-  @apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
 </style>
