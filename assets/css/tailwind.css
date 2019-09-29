@@ -41,3 +41,36 @@ footer {
     width: 100%;
     z-index: -1;
 }
+footer a {
+    position: relative;
+}
+footer a::after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    opacity: 0;
+    left: 0;
+    bottom: 0;
+    transition: 0.2s ease all;
+}
+.facebook-link::after {
+    background-color: #3b5998;
+}
+.twitter-link::after {
+    background-color: #1da1f2;
+}
+.instagram-link::after {
+    background-color: #5851db;
+}
+.dribbble-link::after {
+    background-color: #ea4c89;
+}
+.github-link::after {
+    background-color: #6cc644;
+}
+
+footer a:hover::after {
+    opacity: 1;
+}
