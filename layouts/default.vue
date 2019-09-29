@@ -1,5 +1,17 @@
 <template>
   <div>
+    <header>
+      <div class="flex justify-between">
+        <div class="header-social-links">
+          <a href="#!" class="facebook-link text-white mr-1 p-1"><i class="fa fa-facebook"></i></a>
+          <a href="#!" class="twitter-link text-white mr-1 p-1"><i class="fa fa-twitter"></i></a>
+          <a href="#!" class="instagram-link text-white mr-1 p-1"><i class="fa fa-instagram"></i></a>
+          <a href="#!" class="dribbble-link text-white mr-1 p-1"><i class="fa fa-dribbble"></i></a>
+          <a href="#!" class="github-link text-white mr-1 p-1"><i class="fa fa-github"></i></a>
+        </div>        
+        <PrimaryNavigation />
+      </div>
+    </header>
     <nuxt />
     <footer>
       <section class="bg-black m-0 p-0 pb-2">
@@ -19,6 +31,16 @@
     </footer>
   </div>
 </template>
+
+<script>
+import PrimaryNavigation from '../components/PrimaryNavigation.vue'
+
+export default {
+  components: {
+    PrimaryNavigation
+  }
+}
+</script>
 
 <style>
 html {

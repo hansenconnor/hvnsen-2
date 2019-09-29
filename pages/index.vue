@@ -5,11 +5,6 @@
         <a href="/"><img src="~/assets/images/logo.svg" class="mb-10 mt-2" alt="Hansen Logo"></a>
         <img src="~/assets/images/DesignAndDevelopment.svg" class="mb-4" style="width: 80vw;" alt="The Future of Design &amp; Development">
         <h1 class="mb-6 text-white font-bold">Digital Solutions</h1>
-        <a href="#!" class="facebook-link text-white mr-1 p-1"><i class="fa fa-facebook"></i></a>
-        <a href="#!" class="twitter-link text-white mr-1 p-1"><i class="fa fa-twitter"></i></a>
-        <a href="#!" class="instagram-link text-white mr-1 p-1"><i class="fa fa-instagram"></i></a>
-        <a href="#!" class="dribbble-link text-white mr-1 p-1"><i class="fa fa-dribbble"></i></a>
-        <a href="#!" class="github-link text-white mr-1 p-1"><i class="fa fa-github"></i></a>
       </div>
     </section>
     
