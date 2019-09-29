@@ -1,6 +1,22 @@
 <template>
   <div>
     <nuxt />
+    <footer>
+      <section class="bg-gray-900 m-0 p-0 pb-2">
+        <div class="flex bg-white py-4 mx-2 justify-center">
+            <div class="footer-social-links">
+              <a href="#!" class="text-black p-1"><i class="fa fa-facebook"></i></a>
+              <a href="#!" class="text-black p-1"><i class="fa fa-twitter"></i></a>
+              <a href="#!" class="text-black p-1"><i class="fa fa-instagram"></i></a>
+              <a href="#!" class="text-black p-1"><i class="fa fa-dribbble"></i></a>
+              <a href="#!" class="text-black p-1"><i class="fa fa-github"></i></a>
+            </div>
+        </div>
+        <div class="flex bg-gray-300 p-2 mx-2">
+          hvnsen
+        </div>
+      </section>
+    </footer>
   </div>
 </template>
 

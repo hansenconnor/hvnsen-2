@@ -4,11 +4,40 @@
 
 body {
     background-color: #171717;
+    margin-bottom: 328px;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
 }
 
 h1 {
+    font-family: 'Arial';
     font-size: 4.5rem; /* 75px */
 }
 h2 {
+    font-family: 'Arial';
     font-size: 3rem; /* 48px */
+}
+
+h1.heading {
+    font-size: 3rem;
+}
+h2.subhead {
+    color: #808080;
+    font-size: 1.5rem;
+}
+
+section.sm {
+    padding: 20px 0;
+}
+section.md {
+    padding: 40px 0;
+}
+section.lg {
+    padding: 80px 0;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
 }
