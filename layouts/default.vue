@@ -1,5 +1,6 @@
 <template>
   <div>
+    
     <header>
       <div class="flex justify-between">
         <div class="header-social-links">
@@ -12,7 +13,9 @@
         <PrimaryNavigation />
       </div>
     </header>
+    
     <nuxt />
+
     <footer>
       <section class="bg-black m-0 p-0 pb-2">
         <div class="flex bg-white py-4 mx-2 justify-center">
@@ -29,13 +32,21 @@
         </div>
       </section>
     </footer>
+  
   </div>
 </template>
 
 <script>
 import PrimaryNavigation from '../components/PrimaryNavigation.vue'
+import abstractBackground from '~/assets/images/abstract-background.jpg'
+
 
 export default {
+  data() {
+    return {
+      abstractBackground
+    }
+  },
   components: {
     PrimaryNavigation
   }

@@ -34,11 +34,12 @@
       </div>
     </section>
 
-    <section class="flex bg-gray-900 lg">
+    <section id="preFooter" class="flex lg" :style="{ backgroundImage: `url(${abstractBackground})` }">
       <div class="container">
         <div class="row">
           <h1 class="heading text-white">Ready?</h1>
-          <h2 class="subhead">Explore our recent projects or send us a message to begin.</h2>
+          <h2 class="subhead text-white">Explore our recent projects or send us a message to begin.</h2>
+          <h-button :text="'Hello World'" />
         </div>
       </div>
       <div class="flex">
@@ -50,13 +51,25 @@
 </template>
 
 <script>
+import abstractBackground from '~/assets/images/abstract-background.jpg'
+import HButton from '~/components/buttons/PrimaryButton'
 
 export default {
+  data() {
+    return {
+      abstractBackground
+    }
+  },
   components: {
-
+    HButton
   }
 }
 </script>
 
 <style>
+#preFooter {
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 </style>
